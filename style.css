@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background: rgb(170, 67, 64);
+   
+}
+
+.wrap{
+    border: 3px solid black;
+    border-radius: 20px;
+    height: 500px;
+    width: 355px;
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 13%;
+}
+
+input {
+    font-size: 25px;
+    padding: 15px;
+    text-align: right;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: rgb(0, 255, 115);
+    box-shadow: 5px 5px 3px  rgb(135, 136, 136);
+}
+
+.button {
+    width: 85px;
+    height: 70px;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+}
+.button:hover{
+    background: rgb(0, 162, 255);
+}
+
+.equal {
+    width: 170px;
+    height: 70px;
+    background: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.equal:hover{
+    background: rgb(0, 162, 255);
+}
